@@ -6,9 +6,9 @@ import Header from './components/header.js';
 function App() {
   return (
     <div>
-      <NavBar></NavBar>
       
       <Header></Header>
+      <NavBar></NavBar>
       
     </div>
       

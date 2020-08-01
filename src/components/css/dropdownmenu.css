@@ -1,0 +1,10 @@
+.drop-down {
+    position: absolute;
+    width: 300px;
+    transition: translateX(-45%);
+    background-color: var(--bg);
+    border: var(--border);
+    border-radius: var(--border-radius);
+    padding: 0.5rem;
+    overflow: hidden;
+  }

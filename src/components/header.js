@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Logo from '../sleeping.png'
-import './header.css';
 
 
 export class Header extends Component {
@@ -10,7 +9,7 @@ export class Header extends Component {
             
             <div className="header">
                 <img src={ Logo } className="Logo" alt="Profile"></img>
-                <div className="header-text">Vasp</div>
+                <div className="header-text">Vasp.Dev</div>
             </div>
         )
     }

@@ -3,11 +3,11 @@ import NavItem from './navitem.js';
 import DropDownMenu from './dropdownmenu.js';
 import DropDownItem from './dropdownitem.js';
 
-import GithubLogo from './icons/038-github.svg';
-import TwitterLogo from './icons/043-twitter.svg';
+import GithubLogo from './icons/github.svg';
+import TwitterLogo from './icons/twitter.svg';
 import DefaultLogo from './icons/user.svg';
-import YoutubeLogo from './icons/011-youtube.svg';
-import TwitchLogo from './icons/twitch1.svg';
+import YoutubeLogo from './icons/youtube.svg';
+import TwitchLogo from './icons/twitch.svg';
 
 export class NavBar extends Component {
     render() {

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-
 export class NavItem extends Component {
 
     state = {
