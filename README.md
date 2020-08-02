@@ -1,3 +1,2 @@
-# vaspdev
+# Vasp Dev
 Source code for Vasp.Dev
-Source for Vasp.Dev
