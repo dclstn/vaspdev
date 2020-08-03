@@ -14,9 +14,9 @@ body {
   :root {
     --bg: #242526;
     --bg-accent: #484a4d;
-    --text-colour: #dadce1;
+    --text-colour: #dbdbdb;
     --nav-save: 60px;
-    --border: 1px solid #474a4d;
+    --border: 1px solid #4a4d47;
     --border-radius: 8px;
     --speed: 500ms;
   }

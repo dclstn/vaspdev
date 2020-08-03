@@ -8,7 +8,11 @@
 @import './components/css/icon.css';
 @import './components/css/menuitem.css';
 @import './components/css/navbar.css';
-@import './components/css/smallicon.css';
 
 /* Header */
 @import './components/css/header.css';
+
+/* Container */
+@import './components/css/container.css';
+
+@import './components/css/animation.css';

@@ -1,0 +1,12 @@
+
+.container {
+    justify-content: flex-end;
+    background-color: var(--bg);
+    padding: 5rem;
+    text-align: left;
+    color: var(--text-colour);
+}
+
+.container h1 {
+    font-size: 48px;
+}
