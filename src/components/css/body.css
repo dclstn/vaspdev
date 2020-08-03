@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background: #151616;
+    background: var(--bbg);
     font-family: roboto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -12,6 +12,7 @@ body {
   }
   
   :root {
+    --bbg: #151616;
     --bg: #242526;
     --bg-accent: #484a4d;
     --text-colour: #dbdbdb;

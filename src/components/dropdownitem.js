@@ -7,7 +7,7 @@ export class DropDownItem extends Component {
         return (
             <a href={ this.props.link } className="menu-item">
                 <a href="#" className="icon">
-                    <img className="small-icon" src={ this.props.icon }/>     
+                    <img className="small-icon" alt="lol" src={ this.props.icon }/>     
                 </a>
                 { this.props.children }
             </a>

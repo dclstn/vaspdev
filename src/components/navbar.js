@@ -3,7 +3,7 @@ import NavItem from './navitem.js';
 import DropDownMenu from './dropdownmenu.js';
 import DropDownItem from './dropdownitem.js';
 import DropDownItemInt from './dropdownitemint.js';
-import Animated from '../components/animated.js'
+import Button from './button.js'
 
 import GithubLogo from './icons/github.svg';
 import TwitterLogo from './icons/twitter.svg';
@@ -36,7 +36,10 @@ export class NavBar extends Component {
                             <DropDownItemInt icon={ ComputerLogo } link="/spec">PC Specification</DropDownItemInt>
                         </DropDownMenu>
                     </NavItem>
+
+                    <Button className="right">Projects</Button>
                 </ul>
+
             </nav>
         )
     }

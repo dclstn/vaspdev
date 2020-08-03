@@ -4,7 +4,6 @@
 
 /* NavBar */
 @import './components/css/dropdownmenu.css';
-@import './components/css/iconbutton.css';
 @import './components/css/icon.css';
 @import './components/css/menuitem.css';
 @import './components/css/navbar.css';
@@ -16,3 +15,5 @@
 @import './components/css/container.css';
 
 @import './components/css/animation.css';
+
+@import './components/css/button.css';

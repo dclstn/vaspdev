@@ -45,7 +45,7 @@ export class NavItem extends Component {
            
             <li className="nav-item" ref={node => this.node = node}>
                 <a href="#" className="icon-button" onClick={ this.toggleDropdown }>
-                    <img className="small-icon" src={ this.props.icon }/>       
+                    <img className="small-icon" alt="lol" src={ this.props.icon }/>       
                 </a>
 
                 { !this.state.toggled && this.props.children }

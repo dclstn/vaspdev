@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import GithubLogo from './icons/github.svg';
-
 
 export class AnimatedBG extends Component {
     

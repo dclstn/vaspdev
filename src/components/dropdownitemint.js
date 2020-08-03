@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link, Route, Switch } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export class DropDownItem extends Component {
 
@@ -11,7 +11,7 @@ export class DropDownItem extends Component {
                 <a className="menu-item"> 
                     
                         <a href="#" className="icon">
-                            <img className="small-icon" src={ this.props.icon }/>     
+                            <img className="small-icon" alt="lol" src={ this.props.icon }/>     
                         </a>
                         { this.props.children }
                 </a>

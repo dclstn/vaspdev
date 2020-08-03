@@ -1,7 +1,7 @@
 
 .header {
     justify-content: flex-end;
-    background-color: var(--bg);
+    background-color: var(--bbg);
     border: var(--border);
     padding: 1rem;
     text-align: center;
