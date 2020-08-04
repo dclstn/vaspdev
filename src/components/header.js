@@ -11,7 +11,7 @@ export class Header extends Component {
                 
                 <img src={ Logo } className="Logo" alt="Profile"></img>
                 <div className="header-text">Vasp.Dev</div>
-                { <Animated/> }
+                <div className="header-animation">{ <Animated/> }</div>
                 
             </div>
         )

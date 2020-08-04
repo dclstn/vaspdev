@@ -4,9 +4,28 @@
     padding: 0 1rem;
     border-bottom: var(--border);
     display: flex;
+    
 }
   
-.navbar-nav {
+.navbar-nav-left  {
     display: flex;
     justify-content: flex-end;
+    margin-left: 10%;
+}
+
+.navbar-nav-right {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: auto;
+    margin-right: 10%;
+}
+
+@media only screen and (max-width: 900px) {
+    .navbar-nav-left  {
+        margin-left: 0%;
+    }
+
+    .navbar-nav-right  {
+        margin-right: 0%;
+    }
 }

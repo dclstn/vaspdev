@@ -1,5 +1,5 @@
 .btn {
-    width: var(--button-size);
+    width: 150px;
     height: var(--button-size);
     background-color: var(--text-colour);
     border-radius: 10px;

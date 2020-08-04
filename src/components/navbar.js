@@ -18,7 +18,7 @@ export class NavBar extends Component {
     render() {
         return (
             <nav className="navbar">
-                <ul className="navbar-nav">
+                <ul className="navbar-nav-left">
                     <NavItem icon={ DefaultLogo } toggled="false">
                         <DropDownMenu>
                             <DropDownItem icon={ GithubLogo } link="https://github.com/dclstn">GitHub</DropDownItem>
@@ -37,8 +37,12 @@ export class NavBar extends Component {
                         </DropDownMenu>
                     </NavItem>
 
-                    <Button className="right">Projects</Button>
+                    
                 </ul>
+                <ul className="navbar-nav-right">
+                    <Button>Projects</Button>
+                </ul>
+                
 
             </nav>
         )
