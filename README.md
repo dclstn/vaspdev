@@ -4,9 +4,6 @@
 
 ![Alt Text](https://i.imgur.com/xCmN0f3.gif)
 
-* 🍒 Front-End code for my first React Project.
-* 🍇 First experience with components and libraries.
-
 Website: You may visit it here [Vasp.Dev](https://vasp.dev/).
 
 ## What's Next?
